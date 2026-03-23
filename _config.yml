@@ -25,10 +25,10 @@ plugins:
 # Site settings
 url: 'https://mydomain.com'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Austin Conner'
+description: 'Tensor expert'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "/assets/mountain.png"
 
 # Pagination
 paginate: 5
@@ -43,10 +43,10 @@ navigation_header:
 - title: Blog
   url: /blog/
 
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+# # Footer nav
+# navigation_footer:
+# - title: Back to top
+#   url: "#top"
 
 # Collections
 collections:

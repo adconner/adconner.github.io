@@ -1,0 +1,257 @@
+name: Austin Conner
+work: Harvard Mathematics Department
+email: aconner.vu@gmail.com
+website: people.math.harvard.edu/~aconner
+
+employment:
+- firm: Harvard University
+  location: Cambridge, MA
+  title: NSF Postdoctoral Fellow under the supervision of Joe Harris
+  date: 2020-2022, 2023-2025
+- firm: Universit\"at Konstanz
+  location: Germany
+  title: Postdoc under the supervision of Mateusz Micha\l{}ek
+  date: 2022-2023
+    
+education:
+- year: 2020
+  degree: Ph.D. in Mathematics
+  institute: Texas A\&M University
+  location: College Station, TX
+  # thesis: New Results in the Complexity of Matrix Multiplication
+  advisor: J.M. Landsberg
+- year: 2013 
+  degree: B.S. in Computer Science and Mathematics
+  institute: Vanderbilt University
+  location: Nashville, TN
+  # thesis: Coxeter Group Fundamentals with Group Theoretic Arguments
+  # advisor: Michael Mihalik
+  
+interests: |
+  Complexity and invariants of tensors, particularly with applications to theoretical computer science.
+
+articles:
+- title: Sullivant-Talaska ideal of the cyclic Gaussian Graphical Model
+  author: \textbf{A.~Conner}, K.~Han and M.~Micha\l{}ek
+  year: 2026
+  ref: arXiv:2308.05561, To be published in Advances in Applied Mathematics
+  link: https://arxiv.org/abs/2308.05561
+- title: Polynomial systems admitting a simultaneous solution
+  author: \textbf{A.~Conner}, M.~Micha\l{}ek, M.~Schindler, and B.~Szendroi
+  ref: J. Algebra, 667, 412-424
+  year: 2025
+  link: https://doi.org/10.1016/j.jalgebra.2024.12.015
+  journal: Journal of Algebra
+- title: New lower bounds for matrix multiplication and the $3\times 3$ determinant
+  author: \textbf{A.~Conner}, A.~Harper and J.M.~Landsberg
+  year: 2023
+  ref: Forum Math. Pi, 11, E17
+  link: https://doi.org/10.1017/fmp.2023.14
+  journal: Forum of Mathematics, Pi
+- title: "Bad and Good news for Strassen's laser method: Border rank of the $3\\times 3$ permanent and strict submultiplicativity"
+  author: \textbf{A.~Conner}, H.~Huang and J.M.~Landsberg
+  ref: Found. Comput. Math, 23, 2049-2087
+  link: https://doi.org/10.1007/s10208-022-09579-3
+  year: 2022
+  journal: Foundations of Computational Mathematics
+- title: Rank and border rank of Kronecker powers of tensors and Strassen's laser method
+  author: \textbf{A.~Conner}, F.~Gesmundo, J.M.~Landsberg, and E.~Ventura
+  year: 2021
+  ref: Comput.~Complex, 31, no.~1
+  link: https://doi.org/10.1007/s00037-021-00217-y
+  journal: Computational Complexity
+- title: New Results in the Complexity of Matrix Multiplication
+  author: \textbf{A.~Conner}
+  year: 2020
+  ref: Thesis
+  link: https://hdl.handle.net/1969.1/191603
+  journal: Thesis
+- title: Towards a Geometric Approach to Strassen's Asymptotic Rank Conjecture
+  author: \textbf{A.~Conner}, F.~Gesmundo, J.M.~Landsberg, E.~Ventura, and Y.~Wang
+  year: 2020
+  ref: Collect.~Math, 72, 63-86
+  link: https://doi.org/10.1007/s13348-020-00280-8
+  journal: Collectanea Mathematica
+- title: Tensors not subject to barriers for Strassen's laser method
+  author: J.M.~Landsberg, \textbf{A.~Conner}, F.~Gesmundo, and E.~Ventura
+  year: 2020
+  ref: Innovations in Theoretical Computer Science (ITCS), Seattle, WA
+  link: https://doi.org/10.4230/LIPIcs.ITCS.2020.10
+  journal: ITCS
+- title: A rank 18 Waring decomposition of $sM_{\langle 3\rangle}$ with 432 symmetries
+  author: \textbf{A.~Conner}
+  year: 2019
+  ref: Exp.~Math, 30, 383-385
+  link: https://doi.org/10.1080/10586458.2018.1547231
+  journal: Experimental Mathematics
+
+preprints:
+- title: Characteristic numbers and chromatic polynomial of a tensor
+  author: \textbf{A.~Conner} and M.~Micha\l{}ek
+  ref: arXiv:2111.00809
+  link: https://arxiv.org/abs/2111.00809
+- title: Tensors with maximal symmetries
+  author: \textbf{A.~Conner}, F.~Gesmundo, J.M.~Landsberg, and E.~Ventura)
+  ref: arXiv:1909.09518
+  link: https://arxiv.org/abs/1909.09518
+
+# conference:
+# - name: Tensors not subject to barriers for Strassen's laser method
+#   author: J.M.~Landsberg, \textbf{A.~Conner}, F.~Gesmundo, and E.~Ventura
+#   year: 2020
+#   ref: Innovations in Theoretical Computer Science (ITCS), Seattle, WA
+#   link: https://doi.org/10.4230/LIPIcs.ITCS.2020.10
+#   journal: ITCS
+
+talks:
+- location: Simons Institute Matrix Multiplication workshop 
+  date: 10/25
+  link: "https://simons.berkeley.edu/talks/austin-conner-harvard-university-2025-10-28"
+- location: Simons Institute Complexity and Linear Algebra bootcamp 
+  date: 9/25
+  link: "https://simons.berkeley.edu/talks/austin-conner-harvard-university-2025-09-19"
+  link2: "https://simons.berkeley.edu/talks/austin-conner-harvard-university-2025-09-19-0"
+- location: University of Texas Geometry Seminar 
+  date: 10/24
+- location: Northeastern University Algebraic Geometry Seminar 
+  date: 9/24
+- location: Duke University Algebraic Geometry Seminar 
+  date: 8/24
+- location: Auburn University Algebra Seminar 
+  date: 8/24
+- location: Texas A\&M University Algebraic Geometry Seminar 
+  date: 8/24
+- location: "Tensors: Algebra-Geometry-Applications, Fort Collins"
+  date: 6/24
+- location: Tensor Invariants in Geometry and Compexity Theory, Auburn 
+  date: 5/24
+- location: Georgia Institute of Technology Algebra Seminar 
+  date: 11/23
+- location: Konstanz Geometry Seminar 
+  date: 6/23
+- location: Secant vs Cactus workshop, Toulouse 
+  date: 5/23
+- location: AGATES, Warsaw 
+  date: 11/22
+- location: MEGA 2022, Krak\'ow 
+  date: 6/22
+- location: Texas A\&M working group seminar 
+  date: 12/21
+- location: Quivers, Tensors, and their Applications, AMS Sectional meeting, virtual 
+  date: 5/21
+- location: Harvard University CS Theory Seminar 
+  date: 3/21
+- location: Harvard-MIT Algebraic Geometry Seminar 
+  date: 11/20
+- location: Texas A\&M Algebraic Geometry Seminar 
+  date: 2/19
+- location: University of Wisconsin-Madison Algebra and Algebraic Geometry Seminar 
+  date: 11/18
+- location: Texas A\&M University Algebraic Geometry Seminar 
+  date: 9/18
+- location: Harvard-MIT Algebraic Geometry Seminar 
+  date: 9/18
+- location: University of Michigan Commutative Algebra Seminar 
+  date: 9/18
+- location: Texas A\&M University Algebraic Geometry Seminar 
+  date: 9/17
+
+activities:
+- activity: Co-organizer of \emph{Tensor Invariants in Geometry and Compexity Theory}, Auburn 
+  date: 5/24
+- activity: "Undergraduate research supervision: L.~Alcock"
+  date: 8/22-8/24
+- activity: "Undergraduate research supervision: K.~Hou"
+  date: 5/21-8/21
+- activity: Co-organizer of \emph{Computational methods working group, Tensors and Complexity Theory workshop}, Toulouse 
+  date: 4/22
+
+awards:
+- award: National Science Foundation MSPRF Postdoctoral Fellowship
+  year: 2020
+- award: Texas A\&M Guseman Prize for excellence in mathematics research
+  year: 2019
+- award: Vanderbilt University Richard~J.~Larsen Award for achievement in undergraduate mathematics
+  year: 2013
+  
+teaching:
+- date: Spring 2025
+  class: Mathematics in the World (problem solving and applications class)
+  role: Instructor
+  institute: Harvard University
+- date: Spring 2025
+  class: Multivariable Calculus
+  role: Instructor
+  institute: Harvard University
+- date: Fall 2024
+  class: Geometry and Complexity Theory
+  role: Instructor
+  institute: Harvard University
+- date: Fall 2024
+  class: Calculus
+  role: Series
+  institute: Differential Equations, Instructor, Harvard University
+- date: Spring 2024
+  class: Algebraic geometry
+  role: Instructor
+  institute: Harvard University
+- date: Fall 2023
+  class: Calculus
+  role: Series
+  institute: Differential Equations, Instructor, Harvard University
+- date: Spring 2023
+  class: Linear Algebra II
+  role: Teaching Assistant
+  institute: Universit\'at Konstanz
+- date: Fall 2022
+  class: Linear Algebra I
+  role: Teaching Assistant
+  institute: Universit\'at Konstanz
+- date: Spring 2022
+  class: Geometry and Complexity Theory
+  role: Instructor
+  institute: Harvard University
+- date: Fall 2021
+  class: Linear Algebra
+  role: Instructor
+  institute: Harvard University
+- date: Spring 2020
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Spring 2019
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Fall 2018
+  class: Business Mathematics
+  role: Instructor
+  institute: Texas A\&M
+- date: Spring 2018
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Spring 2017
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Fall 2016
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Spring 2016
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Fall 2015
+  class: Engineering Calculus I
+  role: Teaching Assistant
+  institute: Texas A\&M
+- date: Spring 2014
+  class: Calculus III for Computer Science
+  role: Teaching Assistant
+  institute: Georgia Institute of Technology
+- date: Fall 2013
+  class: Calculus III
+  role: Teaching Assistant
+  institute: Georgia Institute of Technology

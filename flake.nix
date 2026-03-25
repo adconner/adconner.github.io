@@ -13,6 +13,7 @@
         gems
         gems.wrappedRuby
         bundix
+        texliveBasic
       ];
     in
     {

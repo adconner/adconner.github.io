@@ -1,0 +1,93 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+% \usepackage{enumitem}
+\usepackage[colorlinks=true]{hyperref}
+% \usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+{% raw %}
+\renewcommand{\section}[1]{{\bf #1}}
+{% endraw %}
+% \newenvironment{resitem}%
+%   {\renewcommand{\item}{\par \hangindent=0.5cm \noindent}}%
+%   {\par \renewcommand{\item}{\olditem}}
+
+\pagestyle{empty}
+
+\renewcommand\labelitemi{}
+
+\newenvironment{resitem}%
+{\begin{description}\itemsep=0em}%
+{\end{description}}
+  % {\renewcommand{\item}{\\[1mm]}}%
+  % {\par \renewcommand{\item}{\olditem}}
+  
+\newenvironment{resitemlist}%
+{\begin{enumerate}\itemsep=0em}%
+{\end{enumerate}}
+
+\newenvironment{resitemdate}%
+  {\vspace{-4mm}\renewcommand{\item}{\\[2mm]}\begin{tabular}{p{1.5cm}p{13.8cm}}}%
+  {\end{tabular} \par \renewcommand{\item}{\olditem}}
+
+\setlength{\parskip}{0mm}
+\setlength{\parindent}{0mm}
+
+\begin{document}
+\begin{center}
+{\LARGE\textbf{ {{ name | upcase }} }} \\[1pt]
+% {{ work }} \\[1pt]
+{{ email }}, \url{ {{website}} }
+\end{center}
+
+\section{Employment}
+\begin{resitem}
+{% for w in employment %}\item {{ w.firm }}, {{ w.location }}, {{ w.title }}, ({{ w.date }})
+{% endfor %}\end{resitem}
+
+\section{Education}
+\begin{resitem}
+{% for w in education %}\item {{ w.year }} {{ w.degree }}, {{ w.institute }}, {{ w.location }}.{% if w.advisor != nil %} \newline
+Advisor: {{ w.advisor }}{% endif %}
+{% endfor %}\end{resitem}
+  
+\section{Research Interests} {{ interests }}
+\vspace{3mm}
+
+\section{Published Articles}
+\begin{resitemlist}
+{% for a in articles %}\item \href{ {{ a.link }} }{\textbf{% raw %}{{% endraw %}{{ a.title }}}},
+\emph{ {{ a.author }} } ({{ a.year }}) {{ a.ref }}.
+{% endfor %}\end{resitemlist}
+
+\section{Preprints}
+\begin{resitemlist}
+{% for a in preprints %}\item \href{ {{ a.link }} }{\textbf{% raw %}{{% endraw %}{{ a.title }}}},
+\emph{ {{ a.author }} } {{ a.ref }}.
+{% endfor %}\end{resitemlist}
+
+\section{Conference presentations and seminar talks}
+\begin{resitem}
+{% for t in talks %}\item {{ t.location }} ({{ t.date }}){% if w.link != nil %}\href {{ t.link }} { recording }{% endif %}
+{% endfor %}\end{resitem}
+
+\section{Activities}
+\begin{resitem}
+{% for a in activities %}\item {{ a.activity }} ({{ a.date }})
+{% endfor %}\end{resitem}
+
+\section{Awards}
+\begin{resitem}
+{% for a in awards %}\item {{ a.award }} ({{ a.date }})
+{% endfor %}\end{resitem}
+
+\vspace{5mm}
+
+\section{Teaching}
+\begin{resitem}
+{% for c in teaching %}\item {{ c.date }}, {{ c.class }}, {{ c.role }}, {{ c.institute }}
+{% endfor %}\end{resitem}
+
+\end{document}

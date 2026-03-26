@@ -14,6 +14,10 @@
         gems.wrappedRuby
         bundix
         texliveBasic
+        yq
+        jq
+        gron
+        pandoc
       ];
     in
     {

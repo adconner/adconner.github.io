@@ -5,7 +5,9 @@ cv = subprocess.check_output('yq . _data/cv.yml', shell=True)
 cv = eval(cv)
 def to_html(cur):
     if isinstance(cur, str):
-        return subprocess.check_output('pandoc --wrap none -f latex -t html', shell=True, input=cur.encode()).decode()
+        res = subprocess.check_output('pandoc --wrap none -f latex -t html', shell=True, input=cur.encode()).decode()
+        res = res.strip().removeprefix('<p>').removesuffix('</p>')
+        return res
     if isinstance(cur, list):
         return [to_html(e) for e in cur]
     if isinstance(cur, dict):

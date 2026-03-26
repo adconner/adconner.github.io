@@ -1,0 +1,20 @@
+---
+title: Publications
+---
+
+<ul>
+{% for a in site.data.cv_html.articles %}
+<li><a href={{ a.link }} ><b>{{ a.title }}</b></a>
+<em>{{ a.author }}</em> ({{ a.year }}) {{ a.ref }}.
+</li>
+{% endfor %}
+</ul>
+
+<h3 style="padding-bottom: 20px;">Preprints</h3>
+<ul>
+{% for a in site.data.cv_html.preprints %}
+<li><a href={{ a.link }} ><b>{{ a.title }}</b></a>
+<em>{{ a.author }}</em> {{ a.ref }}.
+</li>
+{% endfor %}
+</ul>

@@ -7,4 +7,4 @@ vendor
 *.out
 *.pdf
 _cv.tex
-_cv_html.json
+_data/cv_html.json

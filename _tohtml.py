@@ -1,7 +1,7 @@
 import subprocess
 import json
 
-cv = subprocess.check_output('yq . _cv.yml', shell=True)
+cv = subprocess.check_output('yq . _data/cv.yml', shell=True)
 cv = eval(cv)
 def to_html(cur):
     if isinstance(cur, str):

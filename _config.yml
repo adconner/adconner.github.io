@@ -9,6 +9,7 @@ exclude:
 - gemset.nix
 - flake.nix
 - flake.lock
+- Makefile
 
 # Set plugins
 plugins:
@@ -23,7 +24,7 @@ plugins:
 - jemoji
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://adconner.github.io'
 baseurl: ''
 title: 'Austin Conner'
 description: 'Tensor expert'

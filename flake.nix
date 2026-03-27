@@ -23,20 +23,28 @@
     {
       packages.${system} =
         let
-          jekyll = pkgs.writeShellApplication {
-            name = "jekyll";
+          build = pkgs.writeShellApplication {
+            name = "build";
             runtimeInputs = deps;
             text = ''
-              if [ $# -eq 0 ]; then
-                jekyll build
-              else
-                jekyll "$@"
-              fi
+              make
+              jekyll build
+              make clean
+            '';
+          };
+          serve = pkgs.writeShellApplication {
+            name = "build";
+            runtimeInputs = deps;
+            text = ''
+              make
+              jekyll serve
             '';
           };
         in
         {
-          default = jekyll;
+          default = build;
+          build = build;
+          serve = serve;
         };
 
       devShells.${system}.default = pkgs.mkShell {

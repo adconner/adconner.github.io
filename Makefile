@@ -10,3 +10,5 @@ cv.pdf: _cv.tex
 _data/cv_html.json: _data/cv.yml _tohtml.py
 	python _tohtml.py > $@
 
+clean:
+	rm _cv.aux _cv.log _cv.out _cv.tex _data/cv_html.json cv.pdf

@@ -26,9 +26,9 @@ See [here](/cv.pdf) for the pdf version of my CV.
   <span style="text-align: left; margin-right: 3px"> <b style="font-size: 130%;">{{ w.institute }}</b> </span>
   <span style="text-align: right; color:#7a7a7a; white-space: nowrap">{{ w.year }}</span>
 </div>
-<p>{{ w.degree }}</p>
-{% if w.advisor != nil %}<p><span style="color:#7a7a7a">Supervised by {{ w.advisor }}</span></p>{% endif %}
 </li>
+<p>{{ w.degree }}
+{% if w.advisor != nil %}<br /><span style="color:#7a7a7a">Supervised by {{ w.advisor }}</span>{% endif %}</p>
 {% endfor %}
 </ul>
 

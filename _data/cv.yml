@@ -1,9 +1,13 @@
 name: Austin Conner
-work: Harvard Mathematics Department
+work: Radix Trading
 email: aconner.vu@gmail.com
 website: https://adconner.github.io
 
 employment:
+- firm: Radix Trading
+  location: Chicago, IL
+  title: Quantitative Researcher
+  date: 2026--present
 - firm: Harvard University
   location: Cambridge, MA
   title: NSF Postdoctoral Fellow under the supervision of Joe Harris
